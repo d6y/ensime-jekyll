@@ -13,3 +13,8 @@
 
 CTRL-C to make it stop.
 
+
+## Troubleshooting
+
+If you see a missing dependency when you `docker run`, try removing the `Gemfile.lock` and then re-running `docker run`.
+
